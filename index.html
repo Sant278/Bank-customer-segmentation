@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Segmentation</title>
+</head>
+<body>
+    <h2>Customer Segmentation Form</h2>
+    <form action="/predict" method="POST">
+        <label for="Age">Age:</label><br>
+        <input type="text" id="Age" name="Age"><br><br>
+
+        <label for="Gender">Gender (0 for Female, 1 for Male):</label><br>
+        <input type="text" id="Gender" name="Gender"><br><br>
+
+        <label for="Location">Location (encoded):</label><br>
+        <input type="text" id="Location" name="Location"><br><br>
+
+        <label for="AvgTxnAmount">Average Transaction Amount:</label><br>
+        <input type="text" id="AvgTxnAmount" name="AvgTxnAmount"><br><br>
+
+        <label for="TotalTxnAmount">Total Transaction Amount:</label><br>
+        <input type="text" id="TotalTxnAmount" name="TotalTxnAmount"><br><br>
+
+        <label for="TxnCount">Transaction Count:</label><br>
+        <input type="text" id="TxnCount" name="TxnCount"><br><br>
+
+        <label for="AvgAccountBalance">Average Account Balance:</label><br>
+        <input type="text" id="AvgAccountBalance" name="AvgAccountBalance"><br><br>
+
+        <label for="TxnFrequency">Transaction Frequency:</label><br>
+        <input type="text" id="TxnFrequency" name="TxnFrequency"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
